@@ -18,7 +18,6 @@ defineProps({
     default: "text",
   },
 });
-const emit = defineEmits(["update:modelValue"]);
 </script>
 
 <template>
