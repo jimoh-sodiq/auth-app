@@ -81,7 +81,7 @@ const initialValues = { email: "", password: "" };
         </VeeForm>
       </div>
     </div>
-    <div class="w-full md:w-1/2 h-screen relative bg-green-600">
+    <div class="w-full hidden md:inline-block md:w-1/2 h-screen relative bg-green-600">
     <img src="~/assets/images/login.jpg" class="absolute w-full h-full top-0 left-0 object-cover"/>
       <div class="flex items-center z-30 space-x-3 absolute top-8 right-10">
         <div

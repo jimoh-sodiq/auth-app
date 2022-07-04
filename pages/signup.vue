@@ -93,7 +93,9 @@ const initialValues = { email: "", password: "", confirmed: "" };
         </VeeForm>
       </div>
     </div>
-    <div class="w-full md:w-1/2 h-screen relative bg-green-600">
+    <div
+      class="w-full hidden md:inline-block md:w-1/2 h-screen relative bg-green-600"
+    >
       <img
         src="~/assets/images/signup.jpg"
         class="absolute w-full h-full top-0 left-0 object-cover"
