@@ -1,6 +1,6 @@
 <template>
   <button
-    class="px-6 disabled:hover:bg-opacity-100 disabled:cursor-not-allowed text-sm mx-auto hover:bg-opacity-75 font-semibold outline-none rounded-full bg-purple-600 text-gray-50 py-1 w-[70%] select-none"
+    class="w-full h-9 font-sans rounded-full text-white text-sm bg-gradient-to-r from-purple-900 to-purple-400 disabled:hover:bg-opacity-100 disabled:cursor-not-allowed  mx-auto hover:bg-opacity-75  outline-none bg-purple-600  py-1 select-none"
     v-bind="$attrs"
   >
     <slot>Submit</slot>
