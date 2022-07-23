@@ -11,6 +11,7 @@ const tryForm = () => {
       <NuxtLink to="/signup">Sign Up</NuxtLink>
       <NuxtLink to="/login">Login</NuxtLink>
       <NuxtLink to="/traq-login">TraqLogin</NuxtLink>
+      <NuxtLink to="/color-page">Color Page</NuxtLink>
     </div>
     <p class="text-sm mt-10 text-rose-500">The submitted values can be seen in the console</p>
   </div>
