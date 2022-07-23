@@ -16,6 +16,7 @@
   "dependencies": {
     "@vee-validate/rules": "^4.5.11",
     "vee-validate": "^4.5.11",
+    "vue-tel-input": "^6.0.3",
     "yup": "^0.32.11"
   }
 }

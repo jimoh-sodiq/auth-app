@@ -2686,6 +2686,11 @@
   dependencies:
     "readable-stream" "^2.0.5"
 
+"libphonenumber-js@^1.10.7":
+  "integrity" "sha512-BvPlectKyHuA8xVBU4PerKdI1t+l71F/GCh6CQhe4j5bTwibF6Jcle88kDcyvq4aW55CXxWZg7yIYhzmjgrjkQ=="
+  "resolved" "https://registry.npmjs.org/libphonenumber-js/-/libphonenumber-js-1.10.9.tgz"
+  "version" "1.10.9"
+
 "lilconfig@^2.0.3", "lilconfig@^2.0.5":
   "integrity" "sha512-xaYmXZtTHPAw5m+xLN8ab9C+3a8YmV3asNSPOATITbtwrfbwaLJj8h66H1WMIpALCkqsIzK3h7oQ+PdX+LQ9Eg=="
   "resolved" "https://registry.npmjs.org/lilconfig/-/lilconfig-2.0.5.tgz"
@@ -4755,6 +4760,13 @@
   "version" "4.0.16"
   dependencies:
     "@vue/devtools-api" "^6.0.0"
+
+"vue-tel-input@^6.0.3":
+  "integrity" "sha512-rl2vlKfkFu77LzTv7XgYLAd1RO1ayhtOcgURUe1R2SVeAJSzwuqMRDBwS8L6tCvTr/QF/gD3S1GleLHMjx2Cfw=="
+  "resolved" "https://registry.npmjs.org/vue-tel-input/-/vue-tel-input-6.0.3.tgz"
+  "version" "6.0.3"
+  dependencies:
+    "libphonenumber-js" "^1.10.7"
 
 "vue@^3.0.0", "vue@^3.2.0", "vue@^3.2.25", "vue@^3.2.37", "vue@>=3", "vue@3.2.37":
   "integrity" "sha512-bOKEZxrm8Eh+fveCqS1/NkG/n6aMidsI6hahas7pa0w/l7jkbssJVsRhVDs07IdDq7h9KHswZOgItnwJAgtVtQ=="
