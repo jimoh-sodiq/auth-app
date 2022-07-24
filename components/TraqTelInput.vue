@@ -15,21 +15,14 @@ defineProps({
     type: String,
     default: "text",
   },
-  phoneNumber: {
-    required: true,
-    type: String
-  }
+  errorMessage: {
+    type: String,
+    default: "",
+  },
 });
 
-function isRequired(value) {
-  // ...
-   if (value && value.trim()) {
-    return true;
-  }
-  return 'This is required';
-}
+defineEmits(["update:phoneValue"]);
 
-const { errorMessage, value:phoneValue } = useField('phone', isRequired);
 </script>
 
 <template>
@@ -37,9 +30,9 @@ const { errorMessage, value:phoneValue } = useField('phone', isRequired);
     <div class="flex flex-col mb-1">
       <span class="text-[16px] mb-2">{{ title }}</span>
        <VueTelInput
-            customValidate="true"
           :placeholder="placeholder"
-          v-model="phoneValue"
+          :modelValue="phoneValue"
+           @change="handleChange"
           :type="type"
           class="rounded-[6px] mb-1 py-2 px-6 ring-1 ring-black/[0.12] outline-[#536DFE] focus:outline-[#536DFE] bg-transparent focus:bg-[#536DFE]/[14%]"
         />
