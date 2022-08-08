@@ -49,7 +49,7 @@ const { value: cars } = useField("cars");
 <template>
   <section>
     <NuxtLayout name="auth-layout">
-      <template #route-link> Login </template>
+      <template #route-link>Create account</template>
       <section class="flex items-center justify-center">
         <form class="w-[400px]" @submit="onSubmit">
           {{ email }} {{ password }} {{ phone }}
@@ -67,7 +67,7 @@ const { value: cars } = useField("cars");
             v-model="password"
             :errorMessage="passwordError"
           />
-          Cars:
+          Remember me:
           <input v-model="cars" type="checkbox" />
           <p class="space-x-2 text-[12px] text-[#E02B1D]" v-if="errors.cars">
             <span>O</span><span>{{ errors.cars }}</span>
